@@ -1,9 +1,14 @@
+using Microsoft.EntityFrameworkCore;
+using Vaultex_Application.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllersWithViews();
-
+var DefaultConnectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+builder.Services.AddDbContext<VaultexDbContext>(options => 
+    options.UseSqlServer(DefaultConnectionString));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
