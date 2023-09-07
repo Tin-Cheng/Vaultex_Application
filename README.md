@@ -10,8 +10,10 @@ Currently, the models are using names directly from database.
 
 The frontend framework is React.
 The following is the screen of fetching data.
-<img width="1425" alt="organisation" src="https://github.com/Tin-Cheng/Vaultex_Application/assets/73582264/8dfdaff9-c769-415c-9adc-ea9ffe2c6d14">
-<img width="1430" alt="employee" src="https://github.com/Tin-Cheng/Vaultex_Application/assets/73582264/fc8a4624-d2d3-4d79-92a4-a8d72feac0c9">
+
+<img width="1425" alt="organisation" src="https://github.com/Tin-Cheng/Vaultex_Application/assets/73582264/a648b121-96d0-4599-9797-3d8d63e44867">
+
+<img width="1430" alt="employee" src="https://github.com/Tin-Cheng/Vaultex_Application/assets/73582264/ce669f9d-2921-4f0a-9f83-9729e68e8e75">
 
 This is the beginning of our project and we can work on the following to improve the project:
 - General
