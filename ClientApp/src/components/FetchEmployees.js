@@ -52,8 +52,6 @@ export class FetchEmployees extends Component {
   async populateEmployeeData() {
     const response = await fetch('employee');
     const data = await response.json();
-    
-    console.log(data)
     this.setState({ employees: data, loading: false });
   }
 }
